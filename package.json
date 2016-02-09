@@ -1,0 +1,16 @@
+{
+  "name": "pi chat server",
+  "version": "1.0.0",
+  "description": "A pi chat server that blinks 3 LEDs depending on how users connect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.2",
+    "onoff": "^1.0.4",
+    "socket.io": "^1.4.5"
+  }
+}
